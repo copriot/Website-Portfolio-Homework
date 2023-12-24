@@ -1,0 +1,86 @@
+@media screen and (max-width:770px) {
+    .navbar{
+        width: 90%;
+    }
+
+.logo h2{
+    font-size: 20px;
+}
+
+#menu_bar{
+    display: grid;
+    color: white;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.nav_links{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: #5b467e;
+    width: 100%;
+    left: 0;
+    padding: 0;
+}
+.nav_links li a{
+    border-bottom: 1px solid white;
+    display: block;
+    border-radius: 0;
+    padding: 10px 0;
+    margin: 0 20px;
+}
+.nav_links li:last-child a{
+    border-bottom: none;
+}
+
+.inner_anasayfa{
+    display: flex;
+   flex-direction: column-reverse;
+    margin-bottom: 30px;
+}
+
+.inner_achivement{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inner_contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.inner_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.child_footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer_social li {
+    margin-inline: 7%;
+    margin-top: 10px;
+    
+}
+.quick_links{
+    font-size: small;
+}
+
+}
+
+
